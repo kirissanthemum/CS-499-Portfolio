@@ -1,32 +1,63 @@
-/* style.css */
+/* style.css — Kawaii Pink Theme */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Comic Neue', 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #ffeef8;
+  color: #5c3a61;
 }
 
 header {
-  background-color: #4a90e2;
+  background-color: #ffb6c1;
   color: white;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
+  font-size: 2em;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.4);
+  border-bottom: 4px dashed #ff69b4;
 }
 
 nav a {
   margin: 0 15px;
-  color: white;
+  color: #fff0f5;
   text-decoration: none;
   font-weight: bold;
+  background-color: #ff69b4;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ff85c1;
 }
 
 section {
   padding: 40px;
   max-width: 800px;
-  margin: auto;
-  background-color: white;
-  margin-top: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 30px auto;
+  background-color: #fff0f5;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.3);
+  border: 2px dotted #ffb6c1;
+}
+
+h1, h2, h3 {
+  font-family: 'Cherry Bomb One', cursive;
+  color: #ff69b4;
+}
+
+button {
+  background-color: #ffb6c1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff85c1;
 }
