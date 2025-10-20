@@ -7,13 +7,13 @@ body {
 }
 
 header {
-  background-color: #4b4b4b;
-  color: white;
+  background-color: #ffe4e1; /* Light pink background */
+  color: #4b4b4b; /* Gray text */
   padding: 30px;
   text-align: center;
   font-size: 2em;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-bottom: 4px solid #888;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid #ffb6c1;
 }
 
 nav ul {
