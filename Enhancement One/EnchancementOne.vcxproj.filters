@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{2e00b0e4-0387-4fb9-8e14-087f5a75007c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{eff1ad7c-3fa8-407e-a9a4-ed1f35ddf8e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CS330 KB Final Project\MainCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CS330 KB Final Project\SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CS330 KB Final Project\ViewManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CS330 KB Final Project\ShaderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CS330 KB Final Project\ShapeMeshes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CS330 KB Final Project\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CS330 KB Final Project\ViewManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\updated project m7\CS330Content\Utilities\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\updated project m7\CS330Content\Utilities\ShaderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CS330 KB Final Project\ShapeMeshes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\textures\green-grass-background-seamless-texture-free-photo.webp">
+      <Filter>textures</Filter>
+    </None>
+    <None Include="..\x64\Debug\shaders\fragmentShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Debug\shaders\vertexShader.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Debug\textures\background.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\background2.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\blackjar.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\brick texture.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\candlejar.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\candletop.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\clover-grass-1024x1024.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\flower design.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\flower.jpeg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\gold foil.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\golddeco.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\matteblack.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\polishcolor.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\rain texturee.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\redknit.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\scrunchie.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\waterdroplets.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\x64\Debug\textures\woodplane.jpg">
+      <Filter>textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
