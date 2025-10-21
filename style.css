@@ -77,6 +77,22 @@ h1, h2, h3 {
   color: #4b4b4b;
 }
 
+.pulse-glow {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 0px #ff69b4;
+  }
+  50% {
+    text-shadow: 0 0 8px #ff69b4;
+  }
+  100% {
+    text-shadow: 0 0 0px #ff69b4;
+  }
+}
+
 button {
   background-color: #6c757d;
   color: white;
