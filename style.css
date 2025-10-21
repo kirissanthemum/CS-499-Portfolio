@@ -100,7 +100,7 @@ img {
   position: absolute;
   width: 8px;
   height: 8px;
-  background: radial-gradient(circle, #6c757d 0%, #f9f9f9 60%, transparent 100%);
+  background: radial-gradient(circle, #ff69b4 0%, #ffe4f0 60%, transparent 100%);
   border-radius: 50%;
   pointer-events: none;
   animation: sparkleFade 0.5s ease-out;
