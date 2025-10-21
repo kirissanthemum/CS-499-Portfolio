@@ -66,6 +66,12 @@ section {
   border-left: 6px solid #6c757d;
 }
 
+section h2, section h3 {
+  border-bottom: 2px solid #ff69b4;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
 h1, h2, h3 {
   font-family: 'Times New Roman', serif;
   color: #4b4b4b;
